@@ -2,12 +2,14 @@
 
 // Main Promo section
 .homeMainPromo {
-  background-image: url('/images/bg-card.png');
+  background-image: url('/images/bg-card-1.png');
   background-repeat: no-repeat;
   background-position: right center;
   height: 635px;
   display: flex;
   flex-direction: column;
+  margin-right: -140px;
+  padding-right: 140px;
 
   .sectionTitle {
     padding-top: 165px;
