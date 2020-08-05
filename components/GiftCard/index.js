@@ -118,7 +118,7 @@ const OwnerName = styled.div`
 `;
 
 const ViewListBtn = styled.a`
-  background: #42cb83;
+  background: #2fc3ff;
   border-radius: 60px;
   color: #fff;
   padding: 6px 15px;
