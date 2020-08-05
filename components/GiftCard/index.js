@@ -27,7 +27,7 @@ const GiftCard = ({ price, brandName, description }) => {
             <img src='/images/giftOwnerIcon.png' alt='gift' />
             <OwnerName>Jane Cooper</OwnerName>
           </OwnerInfo>
-          <ViewListBtn>View List</ViewListBtn>
+          <ViewListBtn>Shop</ViewListBtn>
         </Container>
       </CardMeta>
     </Card>
@@ -115,6 +115,7 @@ const OwnerName = styled.div`
   font-size: 14px;
   line-height: 19px;
   font-family: 'Noto Sans TC', sans-serif;
+  color: #1e2e4f;
 `;
 
 const ViewListBtn = styled.a`
@@ -127,6 +128,7 @@ const ViewListBtn = styled.a`
   line-height: 20px;
   text-align: center;
   text-transform: capitalize;
+  min-width: 100px;
 `;
 
 export default GiftCard;

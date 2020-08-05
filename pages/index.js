@@ -12,14 +12,14 @@ export default function Home() {
         <title>Home</title>
       </Head>
       <section className={styles.homeMainPromo}>
-        <h1 className={styles.sectionTitle}>Find the perfect gift.</h1>
-        <p className={styles.sectionActionText}>
-          Shop gift guides with gurus, buy directly from brands.
-        </p>
+        <h1 className={styles.sectionTitle}>
+          Shop expert recommendations, <br />
+          buy from brands.
+        </h1>
         <div className={styles.inputContainer}>
           <input
             type='text'
-            placeholder='Tell us who you’re gifting for'
+            placeholder='What are you looking for?'
             className={styles.inputSearch}
           />
           <img src="/images/search-white.png" alt="search" className={styles.searchIcon} />
