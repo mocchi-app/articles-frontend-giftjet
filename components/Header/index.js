@@ -11,7 +11,9 @@ const Header = () => {
 
   return (
     <header className={styles.topHeader}>
-      <img src='/images/logo_mocchi.png' alt='logo' />
+      <div className={styles.imgWrapper}>
+        <img src='/images/guideshop-logo.png' alt='logo' />
+      </div>
       <SectionRight>
         <input
           type='text'

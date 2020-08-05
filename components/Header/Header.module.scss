@@ -4,8 +4,20 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 25px 0 20px;
   font-family: 'Montserrat', sans-serif;
+
+}
+
+.imgWrapper {
+  height: 25px;    
+
+  img {
+    cursor: pointer;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 .signInBtn {
@@ -19,7 +31,7 @@
 }
 
 .signUpBtn {
-  background: #00d489;
+  background: #2fc3ff;
   border: 2px solid #fff;
   font-size: 14px;
   border-radius: 100px;

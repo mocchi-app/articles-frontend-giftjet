@@ -2,17 +2,20 @@
 
 // Main Promo section
 .homeMainPromo {
-  background-image: url('/images/bg-card.png');
+  background-image: url('/images/bg-card-1.png');
   background-repeat: no-repeat;
   background-position: right center;
   height: 635px;
   display: flex;
   flex-direction: column;
+  margin-right: -140px;
+  padding-right: 140px;
 
   .sectionTitle {
     padding-top: 165px;
     margin: 0 0 10px 0;
     color: #1e2e4f;
+    margin-bottom: 67px;
   }
 
   .sectionActionText {
@@ -54,7 +57,7 @@
   }
 
   .searchIcon {
-    background: #42CB83;
+    background: #2fc3ff;
     padding: 10px;
     border-radius: 50%;
     position: absolute;
